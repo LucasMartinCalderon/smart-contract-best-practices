@@ -10,7 +10,7 @@ pitfalls to be aware of.
 - Understand that your public functions are public, and may be called maliciously and in any order.
   The private data in smart contracts is also viewable by anyone.
 - Keep gas costs and the block gas limit in mind.
-- Be aware that timestamps are imprecise on a blockchain, miners can influence the time of
+- Be aware that timestamps are imprecise on a blockchain, miners (or validators in the case of post-Ethereum Merge) can influence the time of
   execution of a transaction within a margin of several seconds.
 - Randomness is non-trivial on blockchain, most approaches to random number generation are gameable
   on a blockchain.
